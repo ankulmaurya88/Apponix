@@ -1,0 +1,59 @@
+.Nagivation-Bar{
+    display: flex;
+    background-color: aqua;
+    border-radius: 4px;
+    border: 2px solid blue;
+
+    
+    align-items: start;
+    gap: 20px;
+
+    
+
+    
+}
+
+.Nagivation-Bar a{
+    color: blue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.Nagivation-Bar a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+.cantainer_footer{
+    position: fixed;
+    bottom:0;
+    background-color: aqua;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid blue;
+    padding-right: 10px;
+}
+
+.cantainer_footer a{
+    color:blue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cantainer_footer a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.Footer-text-stack{
+    display : flex ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Footer-text-stack{
+    margin: 2px 0;                  
+    color: #555;
+}

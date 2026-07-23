@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skip to Content Example</title>
+  <style>
+    /* Hide visually but keep accessible for screen readers */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+    }
+
+    /* Reveal skip link on focus or activation */
+    .skip-link:focus,
+    .skip-link:active {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      z-index: 1000;
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding: .5rem .75rem;
+      clip: auto;
+      clip-path: none;
+      overflow: visible;
+      white-space: normal;
+      background: #fff;
+      outline: 2px solid;
+      border-radius: .25rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Skip Link -->
+  <a class="skip-link visually-hidden" href="#main">Skip to content</a>
+
+  <!-- Simulated header/navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="main">
+    <h1>Welcome to the Page</h1>
+    <p>This is the main content area. The skip link above lets keyboard and screen reader users jump directly here.</p>
+  </main>
+
+</body>
+</html>

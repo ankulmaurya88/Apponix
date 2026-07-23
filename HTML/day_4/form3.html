@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+   <center><h1> <div id="navbar">This is Day-4</div></h1></center>
+<hr style="background-color: blue; height: 14px; border: none;">
+    <section class="main-body">
+      <form>
+        <table>
+          <tr>
+            <th><label> Frist name</label></th>
+            <td>
+              <input
+                type="text"
+                placeholder="Frist Name "
+                ,
+                required,
+                maxlength="15"
+                ,
+                pattern="^[A-Za-zÀ-ÿ '-]{2,50}$"
+              />
+            </td>
+          </tr>
+          <!-- last name -->
+          <tr>
+            <th><label> Last name</label></th>
+            <td>
+              <input
+                type="text"
+                placeholder="Last Name "
+                ,
+                required,
+                maxlength="15"
+                ,
+                pattern="^[A-Za-zÀ-ÿ '-]{2,50}$"
+              />
+            </td>
+          </tr>
+
+          <!-- Email-id -->
+
+          <tr>
+            <th><label> Email</label></th>
+            <td>
+              <input
+                type="email"
+                placeholder="email"
+                ,
+                required,
+                maxlength="15"
+              />
+            </td>
+          </tr>
+
+          <!-- password -->
+
+          <tr>
+            <th><label> Password</label></th>
+            <td>
+              <input
+                type="password"
+                placeholder="password"
+                ,
+                required,
+                maxlength="15"
+                ,
+                pattern="^(?=.*\d)(?=.*[a-z])(??=.*[A-Z]).{8,}$"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              />
+            </td>
+          </tr>
+
+          <!-- phone number -->
+
+          <tr>
+            <th><label> phone Number</label></th>
+            <td>
+              <input
+                type="text"
+                placeholder="Number"
+                ,
+                required,
+                maxlength="10"
+                ,
+                pattern="^\+?[0-9\s\-\(\)]{7,15}$"
+              />
+            </td>
+          </tr>
+
+
+          <!-- Gender -->
+           <tr>
+            <th><label> Gender</label></th>
+            <td>
+              <input
+                type="radio"
+                name="gender"
+              />Male &nbsp; &nbsp;
+
+              <input
+                type="radio"
+                name="gender"
+              />Female &nbsp; &nbsp;
+            </td>
+          </tr>
+          <!-- slect hoobies -->
+
+          <tr>
+            <th><label> Select hoobies</label></th>
+            <td>
+              <input type="checkbox"/>  Cricket  &nbsp; &nbsp;
+              <input type="checkbox"/>  Footbal  &nbsp; &nbsp;
+              <input type="checkbox"/>  vollyball  &nbsp; &nbsp;
+              <input type="checkbox"/>  Tennis  &nbsp; &nbsp;
+            </td>
+          </tr>
+
+          <!-- select State -->
+
+          <tr>
+            <th><label> select State</label></th>
+            <td>
+            <select name="" id="">
+              <option value="up"></option>
+              <option value="mp"></option>
+              <option value="Tamil Nadu"></option>
+              <option value="Andhra"></option>
+
+              </select>
+            </td>
+          </tr>
+          <!-- submit and reset button -->
+          <td><input type="submit" /></td>
+          <td><input type="reset" /></td>
+
+          
+
+
+
+        </table>
+      </form>
+    </section>
+
+
+    <em> this is auto tag</em>
+
+    <article> this is article </article>
+    <div id="footer-main"></div>
+
+    
+
+
+    <form >
+  
+  <div>
+    <label for="fileUpload">Select a file to upload:</label>
+    <input 
+      type="file" 
+      id="fileUpload" 
+      name="uploadedFile"
+      required>
+  </div>
+
+  <input type="submit"/>
+</form>
+
+<bdo> </bdo>
+<address></address>
+<aside></aside>
+  </body>
+</html>

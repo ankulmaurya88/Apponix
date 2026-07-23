@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Link color property</title>
+    <style>
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        /*unvisited link will appear green*/
+        a:link {
+            color: red;
+        }
+
+        /*visited link will appear blue*/
+        a:visited {
+            color: blue;
+        }
+
+        /*when mouse hovers over link it will appear orange*/
+        a:hover {
+            color: orange;
+        }
+
+        /*when the link is clicked, it will appear black*/
+        a:active {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <a href="https://www.geeksforgeeks.org/">
+            GeeksforGeeks
+        </a>
+        This link will change colours with different states.
+    </p>
+</body>
+
+</html>

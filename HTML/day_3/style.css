@@ -1,0 +1,18 @@
+.card{
+    background: #2aa704;
+    text-decoration-color: aquamarine;
+}
+#main-1{
+    background-color: aqua;
+}
+
+.main-body{
+    background-color: yellow;
+     text-align: center;
+}
+
+#footer{
+    bottom: 10pc;
+    background: #be1313;
+     text-align: center;
+}

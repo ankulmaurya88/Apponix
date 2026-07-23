@@ -1,0 +1,88 @@
+#navbar{
+    border-radius: 4%;
+    background: #c7a5a5;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+#footer{
+    
+    border-radius: 4%;
+    background: #4b4646;
+    padding-bottom: 9%;
+    padding: auto;
+    text-align: center;
+
+}
+
+.body-main{
+    padding: 30%;
+    padding: auto;
+    background-color: aqua;
+}
+.grid{
+    background-color: blue;
+}
+
+
+
+
+.grid-container {
+    background-color: #27ae60;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px;                             /* Uniform spacing between cards */
+    max-width: 1000px;                     /* Prevents cards from getting too wide */
+    margin: 40px auto;                     /* Centers the entire layout on screen */
+}
+
+/* 3. INDIVIDUAL PRODUCT CARDS */
+/* Shapes the white background blocks with rounding and smooth shadows */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Modern, soft shadow */
+    transition: transform 0.2s ease;           /* Prepares the card for an animation */
+}
+
+/* 4. TEXT STYLING CLASSES */
+/* Sets up clear typographic hierarchy and colors */
+.product-title {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.product-price {
+    font-size: 26px;
+    font-weight: 700;
+    color: #27ae60; /* Sleek green for the pricing */
+    margin-bottom: 20px;
+}
+
+/* 5. INTERACTIVE BUTTON CLASSES */
+/* Styles the primary action items to make them look clickable */
+.btn-buy {
+    background-color: #3498db; /* Clear call-to-action blue */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* 6. PSEUDO-CLASS HOVER EFFECTS */
+/* Animations that trigger only when the user's mouse hovers over elements */
+.btn-buy:hover {
+    background-color: #2980b9; /* Darkens the button on hover */
+}
+.product-card:hover {
+    transform: translateY(-5px); /* Smoothly lifts the card up slightly */
+}

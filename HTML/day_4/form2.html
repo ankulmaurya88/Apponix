@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+   <center><h1> <div id="navbar">This is Day-4</div></h1></center>
+<hr style="background-color: blue; height: 14px; border: none;">
+    <section class="main-body">
+      <form>
+        <table>
+          <tr>
+            <th><label> Frist name</label></th>
+            <td>
+              <input
+                type="text"
+                placeholder="Frist Name "
+                ,
+                required,
+                maxlength="15"
+                ,
+                pattern="^[A-Za-zÀ-ÿ '-]{2,50}$"
+              />
+            </td>
+          </tr>
+          <!-- last name -->
+          <tr>
+            <th><label> Last name</label></th>
+            <td>
+              <input
+                type="text"
+                placeholder="Last Name "
+                ,
+                required,
+                maxlength="15"
+                ,
+                pattern="^[A-Za-zÀ-ÿ '-]{2,50}$"
+              />
+            </td>
+          </tr>
+
+          <!-- Email-id -->
+
+          <tr>
+            <th><label> Email</label></th>
+            <td>
+              <input
+                type="email"
+                placeholder="email"
+                ,
+                required,
+                maxlength="15"
+              />
+            </td>
+          </tr>
+
+          <!-- password -->
+
+          <tr>
+            <th><label> Password</label></th>
+            <td>
+              <input
+                type="password"
+                placeholder="password"
+                ,
+                required,
+                maxlength="15"
+                ,
+                pattern="^(?=.*\d)(?=.*[a-z])(??=.*[A-Z]).{8,}$"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              />
+            </td>
+          </tr>
+
+          <!-- phone number -->
+
+          <tr>
+            <th><label> phone Number</label></th>
+            <td>
+              <input
+                type="text"
+                placeholder="Number"
+                ,
+                required,
+                maxlength="10"
+                ,
+                pattern="^\+?[0-9\s\-\(\)]{7,15}$"
+              />
+            </td>
+          </tr>
+          <!-- submit and reset button -->
+          <td><input type="submit" /></td>
+          <td><input type="reset" /></td>
+        </table>
+      </form>
+    </section>
+
+    <div id="footer-main"></div>
+  </body>
+</html>

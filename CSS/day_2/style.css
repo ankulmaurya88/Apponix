@@ -1,0 +1,35 @@
+div{
+
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    gap: 20%;
+
+}
+
+.div-1{
+
+
+    background-color: yellow;
+}
+
+.div-2{
+    background-color: aqua;
+    
+}
+
+.div-3{
+    background-color: rgba(red, green, blue, .25);
+    
+}
+
+.div-4{
+    background-color: yellowgreen;
+    
+}
+
+#p-1,p-2{
+
+    color: red;
+
+}

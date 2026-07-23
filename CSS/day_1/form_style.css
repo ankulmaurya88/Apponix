@@ -1,0 +1,24 @@
+.bacdenk-1{
+    position: relative;
+background-color: rgb(123, 255, 0);
+color: rgb(44, 46, 46);
+ margin-bottom: 10px;       /* FIX 1: Added 'px' unit */
+    border-radius: 8px;        /* FIX 2: Used px instead of % for standard corners */
+    border: 2px solid black; 
+
+}
+.data-base{
+    position: fixed;
+    background-color: yellow;
+    border-radius: 8px;        /* FIX 2: Used px instead of % for standard corners */
+    border: 2px solid black;
+   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+    margin-top: 10px;
+}
+
+
+

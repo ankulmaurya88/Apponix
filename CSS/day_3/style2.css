@@ -1,0 +1,12 @@
+div{
+    border: 1 px solid black;
+    margin: 5px;
+    color: green;
+    text-align: center;
+}
+
+
+.dotted{ outline: 1px dotted blue;}
+.dashed{  outline-style: dashed; outline-width: 1px; outline-offset: 2px;}
+
+.solid{ outline: 1px solid blue; border-radius: 5px;}

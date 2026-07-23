@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Examples</title>
+    <style>
+        /* Setup page layout to show boxes side-by-side */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            height: 100vh;
+            background-color: #f4f4f9;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Base styles for all boxes */
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Example 1: Soft Modern Shadow */
+        .modern-shadow {
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Example 2: Inner / Inset Shadow */
+        .inner-shadow {
+            background-color: #e0e0e0;
+            box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Example 3: Neon Glow Shadow */
+        .neon-shadow {
+            background-color: #111;
+            color: #fff;
+            box-shadow: 0px 0px 15px #00f3ff, 0px 0px 30px #00f3ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box modern-shadow">
+        Modern Floating
+    </div>
+
+    <div class="box inner-shadow">
+        Pressed Inset
+    </div>
+
+    <div class="box neon-shadow">
+        Neon Glow
+    </div>
+
+</body>
+</html>
