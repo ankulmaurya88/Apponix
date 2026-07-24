@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sibling Selector Example</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    /* Selects ONLY the h1 immediately after a div */
+    div + h1 {
+      color: blue;
+      border: 2px dashed blue;
+    }
+
+    /* Selects ONLY the p immediately after a div */
+    div + p {
+      color: brown;
+      font-weight: bold;
+    }
+    
+    /* Optional: Style the div itself to see the structure */
+    div {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin: 10px auto;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Scenario 1: Adjacent Sibling (Works) -->
+  <div>I am a Div</div>
+  <h1>I am Blue (div + h1)</h1>
+  
+  <div>I am another Div</div>
+  <p>I am Brown (div + p)</p>
+
+  <!-- Scenario 2: Not Immediate Siblings (Does NOT work with +) -->
+  <div>I am a Div</div>
+  <span>I am a span in between</span>
+  <p>I am NOT brown (because of the span in between)</p>
+
+  <!-- Scenario 3: Nested Elements (Does NOT work with +) -->
+  <div>
+    <h1>I am NOT blue (I am inside the div, not after it)</h1>
+    <p>I am NOT brown (I am inside the div)</p>
+  </div>
+
+</body>
+</html>   

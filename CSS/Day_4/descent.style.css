@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+
+div p{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}

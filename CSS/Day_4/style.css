@@ -1,0 +1,12 @@
+body{
+    text-align: center;}
+p{color: red;}
+
+
+
+div~p{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
