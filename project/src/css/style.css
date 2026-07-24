@@ -1,0 +1,134 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+}
+
+
+.chapter-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; 
+        justify-content: center;
+        background-color: #b9b8b8;
+        gap: 40px;
+        padding: 20px;
+        min-height: 50vh;
+    }
+
+    .calculator-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px; 
+    }
+
+
+
+   
+    .calculator-container p,
+    .calculator-container #value {
+        grid-column: span 4; 
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .calculator-container p {
+        text-align: center;
+        margin: 0 0 10px 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .calculator-container #value {
+        height: 50px;
+        font-size: 1.5rem;
+        text-align: right;
+        padding: 5px;
+        margin-bottom: 10px;
+        resize: none;
+    }
+
+  
+    .btn {
+        padding: 15px;
+        font-size: 1.2rem;
+        border: 1px solid #ccc;
+        background-color: #f0f0f0;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn:hover {
+        background-color: #ddd;
+    }
+
+.currency-canverter-container {
+    display: grid;
+    background-color: white;
+    padding: 20px;
+    gap: 17.5px;
+    border-radius: 10px;
+    width: 500px;
+    text-align:left;
+
+}
+
+/* .history{
+    display: flex;
+    background-color: #ccc;
+    width: 100%;
+} */
+
+
+.history {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+}
+
+.history h3 {
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.history-list {
+    display: grid;
+    /* Creates exactly 4 rows of equal height (optional: use auto for dynamic) */
+    /* grid-template-rows: repeat(4, 1fr);  */
+    gap: 10px; /* Space between rows */
+}
+
+.history-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #333;
+}   
+
+.footer-container{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    bottom: 0%;
+    background-color: #333;
+    width: 100%;
+    color: #ccc;
+    text-align: center;
+    
+}
+/* .footer-container p {
+    text-align: center; 
+} */
