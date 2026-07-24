@@ -67,3 +67,13 @@
         padding-right: 0; 
     }
 }
+
+
+
+.container-bar{
+    display : flex;
+    flex-direction: row;
+    background-color: #cc7777;
+    align-items: center;
+    justify-content: space-around;
+}
