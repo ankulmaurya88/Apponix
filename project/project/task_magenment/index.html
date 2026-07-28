@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Mastery Kanban</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>DOM Mastery Kanban</h1>
+
+    <!-- FORM Section -->
+    <form id="task-form">
+        <input type="text" id="title-input" placeholder="Task Title" required>
+        <input type="text" id="desc-input" placeholder="Description">
+        <label class="checkbox-label">
+            <input type="checkbox" id="urgent-check"> Urgent
+        </label>
+        <button type="submit" id="add-btn">Add Task</button>
+    </form>
+
+    <!-- BOARD Section -->
+    <div class="board">
+        <!-- Column 1: To Do -->
+        <div class="column" id="todo-col">
+            <h2>To Do</h2>
+            <div class="task-list"></div>
+        </div>
+
+        <!-- Column 2: In Progress -->
+        <div class="column" id="inprogress-col">
+            <h2>In Progress</h2>
+            <div class="task-list"></div>
+        </div>
+
+        <!-- Column 3: Done -->
+        <div class="column" id="done-col">
+            <h2>Done</h2>
+            <div class="task-list"></div>
+        </div>
+    </div>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>   

@@ -1,0 +1,7 @@
+.navbar {
+  position: sticky;
+  top: 0; /* The threshold where it sticks */
+  background: #333;
+  color: white;
+  padding: 15px;
+}   
