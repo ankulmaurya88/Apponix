@@ -1,0 +1,45 @@
+Q: Why doesn't React have a component generation CLI like Angular?
+
+Answer:
+Because React is a UI library, not a full application framework. It gives you the building blocks for creating user interfaces but doesn't enforce a specific project structure or workflow. Angular is a framework, so it provides an official CLI to generate components, services, modules, and more according to its conventions.
+🎯 I want to change one sentence in your mind
+
+Instead of thinking:
+
+"useState is a React variable."
+
+Think:
+
+"useState is a way to access data that React stores outside my component."This is the sentence I want you to remember forever
+
+This is the sentence I want you to remember forever
+
+A React component is just a JavaScript function. Every render means React calls that function again from the top.🎯 You've reached Level 1 of the React Mental Model
+
+Today you've discovered these rules:
+
+Rule 1
+
+✅ A React component is just a JavaScript function.
+
+Rule 2
+
+✅ Every render means React calls that function from the beginning.
+
+Rule 3
+
+✅ Normal JavaScript variables are recreated on every render.
+
+Rule 4
+
+✅ React state lives outside the component, in React's memory.
+
+Rule 5
+
+✅ setState tells React:
+
+"Run this component again."
+
+Not:
+
+"Reload the page."
